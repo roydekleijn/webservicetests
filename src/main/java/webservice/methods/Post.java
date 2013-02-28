@@ -4,59 +4,60 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Post {
-	private Map<String, String> post = new HashMap<String, String>();
+  private Map<String, String> post = new HashMap<String, String>();
 
-	public Post(String title) {
-		setPost_title(title);
-	}
+  public Post(String title) {
+    setPostTitle(title);
+  }
 
-	public Post() {
-	}
+  public Post() {
+  }
 
-	public Post setPost_type(String post_type) {
-		post.put("post_type", post_type);
-		return this;
-	}
+  public Post setPostType(String postType) {
+    post.put("post_type", postType);
+    return this;
+  }
 
-	public Post setPost_status(String post_status) {
-		post.put("post_status", post_status);
-		return this;
-	}
+  public Post setPostStatus(String postStatus) {
+    post.put("post_status", postStatus);
+    return this;
+  }
 
-	public Post setPost_title(String post_title) {
-		post.put("post_title", post_title);
-		return this;
-	}
+  public Post setPostTitle(String postTitle) {
+    post.put("post_title", postTitle);
+    return this;
+  }
 
-	public Post setPost_author(String post_author) {
-		post.put("post_author", post_author);
-		return this;
-	}
+  public Post setPostAuthor(String postAuthor) {
+    post.put("post_author", postAuthor);
+    return this;
+  }
 
-	public Post setPost_excerpt(String post_excerpt) {
-		post.put("post_excerpt", post_excerpt);
-		return this;
-	}
+  public Post setPostExcerpt(String postExcerpt) {
+    post.put("post_excerpt", postExcerpt);
+    return this;
+  }
 
-	public Post setPost_content(String post_content) {
-		post.put("post_content", post_content);
-		return this;
-	}
+  public Post setPostContent(String postContent) {
+    post.put("post_content", postContent);
+    return this;
+  }
 
-	public Post setPost_date_gmt(String post_date_gmt) {
-		post.put("post_date_gmt", post_date_gmt);
-		return this;
-	}
+  public Post setPostDateGmt(String postDateGmt) {
+    post.put("post_date_gmt", postDateGmt);
+    return this;
+  }
 
-	public Post setPost_format(String post_format) {
-		post.put("post_format", post_format);
-		return this;
-	}
+  public Post setPostFormat(String postFormat) {
+    post.put("post_format", postFormat);
+    return this;
+  }
 
-	public int deletePost(int postId) {
-		return postId;
-	}
-	
-	
+  //TODO: ???
+  public int deletePost(int postId) {
+    return postId;
+  }
+
+
 
 }
