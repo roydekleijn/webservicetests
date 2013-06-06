@@ -4,7 +4,7 @@ import javax.xml.bind.annotation.XmlElement;
 
 public class VertrekkendeTrein {
 
-    private String ritNummer;
+    private int ritNummer;
     private String vertrekTijd;
     private String eindBestemming;
     private String treinSoort;
@@ -13,7 +13,7 @@ public class VertrekkendeTrein {
     private String vertrekSpoor;
 
     @XmlElement(name = "RitNummer")
-    public String getRitNummer() {
+    public int getRitNummer() {
         return ritNummer;
     }
 
@@ -47,7 +47,7 @@ public class VertrekkendeTrein {
         return vertrekSpoor;
     }
 
-    public void setRitNummer(String ritNummer) {
+    public void setRitNummer(int ritNummer) {
         this.ritNummer = ritNummer;
     }
 
